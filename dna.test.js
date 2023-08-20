@@ -1,4 +1,5 @@
 const dnaReverseComplement = require("./dna");
+// import { dnaReverseComplement } from "./dna";
 
 test("DNA DRILL TESTING...", () => {
   expect(dnaReverseComplement("ATGC")).toBe("GCAT");

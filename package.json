@@ -1,8 +1,12 @@
 {
+  "type": "module",
   "name": "js-drills",
   "version": "1.0.0",
   "description": "JavaScript exercises to sharpen my skills regarding aspects such as string manipulation, arrays, etc.",
   "main": "index.js",
+  "jest": {
+    "extensionsToTreatAsEsm": []
+  },
   "scripts": {
     "test": "jest"
   },

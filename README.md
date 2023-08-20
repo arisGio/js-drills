@@ -42,3 +42,9 @@ Side note about exporting: <code>module.exports</code> is <code>CommonJS Syntax<
 
 Check <a href="https://code.tutsplus.com/a-simple-regex-cheat-sheet--cms-31278t">JavaScript Regex Cheat Sheet
 </a>.
+
+# Added "type": "module" to package.json
+
+When set to "module", the type field allows a package to specify all .js files within are ES modules. If the "type" field is omitted or set to "commonjs", all .js files are treated as CommonJS.
+
+Now we have the ability to use <code>export</code> & <code>import</code>.

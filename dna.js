@@ -2,6 +2,7 @@
 // A  with T
 // G with C
 
+// export default function dnaReverseComplement(dnaSequense) {
 function dnaReverseComplement(dnaSequense) {
   return dnaSequense
     .split("")
@@ -20,6 +21,6 @@ function dnaReverseComplement(dnaSequense) {
     .join("");
 }
 
-// console.log(dnaReverseComplement("ATGC")); // GCAT
+console.log(dnaReverseComplement("ATGC")); // GCAT
 
 module.exports = dnaReverseComplement;
