@@ -2,7 +2,7 @@
   "name": "js-drills",
   "version": "1.0.0",
   "description": "JavaScript exercises to sharpen my skills regarding aspects such as string manipulation, arrays, etc.",
-  "main": "dna.js",
+  "main": "index.js",
   "scripts": {
     "test": "jest"
   },
