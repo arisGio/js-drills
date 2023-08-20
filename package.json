@@ -1,0 +1,25 @@
+{
+  "name": "js-drills",
+  "version": "1.0.0",
+  "description": "JavaScript exercises to sharpen my skills regarding aspects such as string manipulation, arrays, etc.",
+  "main": "dna.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arisGio/js-drills.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arisGio/js-drills/issues"
+  },
+  "homepage": "https://github.com/arisGio/js-drills#readme",
+  "dependencies": {
+    "jest-cli": "^29.6.2"
+  },
+  "devDependencies": {
+    "jest": "^29.6.2"
+  }
+}

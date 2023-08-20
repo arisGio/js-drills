@@ -20,4 +20,6 @@ function dnaReverseComplement(dnaSequense) {
     .join("");
 }
 
-console.log(dnaReverseComplement("ATGC")); // GCAT
+// console.log(dnaReverseComplement("ATGC")); // GCAT
+
+module.exports = dnaReverseComplement;
