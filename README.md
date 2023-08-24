@@ -43,10 +43,18 @@ Side note about exporting: <code>module.exports</code> is <code>CommonJS Syntax<
 Check <a href="https://code.tutsplus.com/a-simple-regex-cheat-sheet--cms-31278t">JavaScript Regex Cheat Sheet
 </a>.
 
-Useful website to test regular expressions. Check <a href="https://regex101.com/">HERE<a>.
+Useful website to test regular expressions. Check <a href="https://regex101.com/">HERE</a>.
 
 # Added "type": "module" to package.json
 
 When set to "module", the type field allows a package to specify all .js files within are ES modules. If the "type" field is omitted or set to "commonjs", all .js files are treated as CommonJS.
 
 Now we have the ability to use <code>export</code> & <code>import</code>.
+
+# Multiple tests
+
+When you have multiple tests in your project, executing <code>npm test</code> runs all of them.
+
+If you want to test a single file then you do the following.
+
+<code>npm test -- filename</code>
